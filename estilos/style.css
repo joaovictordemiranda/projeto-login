@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #321744c7;
     height: 100vh;
     width: 100vw;
 }
@@ -39,15 +39,15 @@ section#login {
     
     transform: translate(-46%, -44%);
     transition: width .1s, height .1s;
-    transition-timing-function: ease;
+    /* transition-timing-function: ease; */
 }
 
 section#login > div#imagen {
     display: block;
-    background: url(../imagens/tela-login2.jpg);
+    background: url(../imagens/tela.jpg);
     background-size: cover;
     background-position: left bottom;
-    width: 70vw;
+    width: 100vw;
     height: 250px;
     border-radius: 20px 2px 5px 0px;
 }
@@ -74,6 +74,7 @@ form > input[type=submit] {
     font-size: 1em;
     width: 100%;
     height: 40px;
+    margin: 0px 8px;
     background-color: #2d6462;
     color: white;
     border: none;
@@ -91,6 +92,7 @@ form > a.botao {
     font-size: 1em;
     width: 100%;
     height: 40px;
+    margin: 0px 8px;
     padding-top: 5px;
     margin-top: 5px;
     background-color: white;
@@ -115,7 +117,7 @@ form > div.campo {
     width: 100%;
     height: 40px;
     border-radius: 8px;
-    margin: 5px 0px;
+    margin: 5px 8px;
 }
 
 div.campo > label {
