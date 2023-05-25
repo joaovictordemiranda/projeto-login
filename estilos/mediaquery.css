@@ -21,24 +21,30 @@
     }    
 }
 
-@media screen and (min-width: 1px) {
+@media screen and (min-width: 992px) {
     body {
         background-color: rgba(70, 60, 60, 0.863);
     }
 
     section#login {
-        width: 745px;
+        width: 950px;
     }
 
-    selection#login > div#imagen {
+    section#login > div#imagen {
         float: right;
-        width: 30%;
+        background-position: left top;
+        width: 48%;
         height: 100vh;
     }
 
     section#login > div#formulario {
         float: left;
-        width: 80%;
+        width: 50%;
     }
-}
 
+    section#login > div#formulario > p {
+        margin: 0px 8px;
+
+    }
+
+}

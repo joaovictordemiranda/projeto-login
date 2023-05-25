@@ -47,7 +47,7 @@ section#login > div#imagen {
     background: url(../imagens/tela.jpg);
     background-size: cover;
     background-position: left bottom;
-    width: 55vw;
+    width: 60vw;
     height: 200px;
     border-radius: 20px 2px 5px 0px;
 }
